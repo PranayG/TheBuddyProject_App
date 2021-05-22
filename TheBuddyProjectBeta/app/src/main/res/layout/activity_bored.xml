@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bored">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp">
+
+        <Button
+            android:id="@+id/boredSong1"
+            android:onClick="boredSongbtn1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Song1" />
+
+        <Button
+            android:id="@+id/boredSong2"
+            android:onClick="boredSongbtn2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Song2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="60dp">
+
+        <Button
+            android:id="@+id/boredYtBtn1"
+            android:onClick="boredYtBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/boredYtBtn2"
+            android:onClick="boredYtBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Button" />
+
+
+        <Button
+            android:id="@+id/boredYtBtn3"
+            android:onClick="boredYtBtn3"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="160dp">
+
+
+        <Button
+            android:id="@+id/boredYtBtn5"
+            android:onClick="boredYtBtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Button" />
+        <Button
+            android:id="@+id/boredYtBtn6"
+            android:onClick="boredYtBtn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/boredYtBtn4"
+            android:onClick="boredYtBtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="270dp">
+
+        <Button
+            android:id="@+id/boredYtBtn8"
+            android:onClick="boredYtBtn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/boredYtBtn7"
+            android:onClick="boredYtBtn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/boredYtBtn9"
+            android:onClick="boredYtBtn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp">
+
+        <Button
+            android:id="@+id/boredPodcast1"
+            android:onClick="boredPodcast1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Podcast1" />
+
+        <Button
+            android:id="@+id/boredPodcast2"
+            android:onClick="boredPodcast2"
+            android:layout_width="200dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:text="Podcast2" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="serif"
+        android:text="BORED"
+        android:textSize="50dp" />
+
+
+</RelativeLayout>

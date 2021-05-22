@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".motivation">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp">
+
+        <Button
+            android:id="@+id/motivationSong1"
+            android:onClick="motivationSongbtn1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Song1" />
+
+        <Button
+            android:id="@+id/motivationSong2"
+            android:onClick="motivationSongbtn2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Song2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="60dp">
+
+        <Button
+            android:id="@+id/motivationYtBtn1"
+            android:onClick="motivationYtBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/motivationYtBtn2"
+            android:onClick="motivationYtBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Button" />
+
+
+        <Button
+            android:id="@+id/motivationYtBtn3"
+            android:onClick="motivationYtBtn3"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="160dp">
+
+
+        <Button
+            android:id="@+id/motivationYtBtn5"
+            android:onClick="motivationYtBtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Button" />
+        <Button
+            android:id="@+id/motivationYtBtn6"
+            android:onClick="motivationYtBtn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/motivationYtBtn4"
+            android:onClick="motivationYtBtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="270dp">
+
+        <Button
+            android:id="@+id/motivationYtBtn8"
+            android:onClick="motivationYtBtn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/motivationYtBtn7"
+            android:onClick="motivationYtBtn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/motivationYtBtn9"
+            android:onClick="motivationYtBtn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp">
+
+        <Button
+            android:id="@+id/motivationPodcast1"
+            android:onClick="motivationPodcast1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Podcast1" />
+
+        <Button
+            android:id="@+id/motivationPodcast2"
+            android:onClick="motivationPodcast2"
+            android:layout_width="200dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:text="Podcast2" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="serif"
+        android:text="MOTIVATION"
+        android:textSize="50dp" />
+
+
+</RelativeLayout>

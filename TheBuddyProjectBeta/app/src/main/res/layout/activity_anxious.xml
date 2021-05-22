@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".anxious">
+
+
+ r
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        >
+
+        <Button
+            android:id="@+id/anxiousSong1"
+            android:onClick="anxiousSongbtn1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/anxiousSong2"
+            android:onClick="anxiousSongbtn2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Button" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="60dp">
+
+        <Button
+            android:id="@+id/anxiousYtBtn1"
+            android:onClick="anxiousYtBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/anxiousYtBtn3"
+            android:onClick="anxiousYtBtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Button" />
+
+
+        <Button
+            android:id="@+id/anxiousYtBtn2"
+            android:onClick="anxiousYtBtn2"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="160dp">
+
+
+        <Button
+            android:id="@+id/anxiousYtBtn5"
+            android:onClick="anxiousYtBtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Button" />
+        <Button
+            android:id="@+id/anxiousYtBtn6"
+            android:onClick="anxiousYtBtn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/anxiousYtBtn4"
+            android:onClick="anxiousYtBtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="270dp">
+
+        <Button
+            android:id="@+id/anxiousYtBtn8"
+            android:onClick="anxiousYtBtn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/anxiousYtBtn7"
+            android:onClick="anxiousYtBtn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/anxiousYtBtn9"
+            android:onClick="anxiousYtBtn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp">
+
+        <Button
+            android:id="@+id/anxiousPodcast1"
+            android:onClick="anxiousPodcast1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/anxiousPodcast2"
+            android:onClick="anxiousPodcast2"
+            android:layout_width="200dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="ANXIOUS"
+        android:textSize="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="90dp"/>
+
+
+</RelativeLayout>

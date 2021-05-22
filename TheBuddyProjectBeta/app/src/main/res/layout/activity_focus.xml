@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".focus">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp">
+
+        <Button
+            android:id="@+id/focusSong1"
+            android:onClick="focusSongbtn1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Song1" />
+
+        <Button
+            android:id="@+id/focusSong2"
+            android:onClick="focusSongbtn2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Song2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="60dp">
+
+        <Button
+            android:id="@+id/focusYtBtn1"
+            android:onClick="focusYtBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/focusYtBtn2"
+            android:onClick="focusYtBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Button" />
+
+
+        <Button
+            android:id="@+id/focusYtBtn3"
+            android:onClick="focusYtBtn3"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="160dp">
+
+
+        <Button
+            android:id="@+id/focusYtBtn5"
+            android:onClick="focusYtBtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Button" />
+        <Button
+            android:id="@+id/focusYtBtn6"
+            android:onClick="focusYtBtn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/focusYtBtn4"
+            android:onClick="focusYtBtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="270dp">
+
+        <Button
+            android:id="@+id/focusYtBtn8"
+            android:onClick="focusYtBtn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/focusYtBtn7"
+            android:onClick="focusYtBtn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/focusYtBtn9"
+            android:onClick="focusYtBtn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp">
+
+        <Button
+            android:id="@+id/focusPodcast1"
+            android:onClick="focusPodcast1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Podcast1" />
+
+        <Button
+            android:id="@+id/focusPodcast2"
+            android:onClick="focusPodcast2"
+            android:layout_width="200dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:text="Podcast2" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="serif"
+        android:text="FOCUS"
+        android:textSize="50dp" />
+
+
+</RelativeLayout>

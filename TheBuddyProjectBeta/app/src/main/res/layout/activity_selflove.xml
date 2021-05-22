@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".selflove">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp">
+
+        <Button
+            android:id="@+id/selfloveSong1"
+            android:onClick="selfloveSongbtn1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Song1" />
+
+        <Button
+            android:id="@+id/selfloveSong2"
+            android:onClick="selfloveSongbtn2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Song2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="60dp">
+
+        <Button
+            android:id="@+id/selfloveYtBtn1"
+            android:onClick="selfloveYtBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/selfloveYtBtn2"
+            android:onClick="selfloveYtBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Button" />
+
+
+        <Button
+            android:id="@+id/selfloveYtBtn3"
+            android:onClick="selfloveYtBtn3"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="160dp">
+
+
+        <Button
+            android:id="@+id/selfloveYtBtn5"
+            android:onClick="selfloveYtBtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Button" />
+        <Button
+            android:id="@+id/selfloveYtBtn6"
+            android:onClick="selfloveYtBtn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/selfloveYtBtn4"
+            android:onClick="selfloveYtBtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="270dp">
+
+        <Button
+            android:id="@+id/selfloveYtBtn8"
+            android:onClick="selfloveYtBtn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/selfloveYtBtn7"
+            android:onClick="selfloveYtBtn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/selfloveYtBtn9"
+            android:onClick="selfloveYtBtn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp">
+
+        <Button
+            android:id="@+id/selflovePodcast1"
+            android:onClick="selflovePodcast1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Podcast1" />
+
+        <Button
+            android:id="@+id/selflovePodcast2"
+            android:onClick="selflovePodcast2"
+            android:layout_width="200dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:text="Podcast2" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="serif"
+        android:text="SELF LOVE"
+        android:textSize="50dp" />
+
+
+</RelativeLayout>

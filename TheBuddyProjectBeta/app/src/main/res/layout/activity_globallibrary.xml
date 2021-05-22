@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".globallibrary"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/globallibraryheader"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="GLOBAL LIBRARY"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+
+        <Button
+            android:id="@+id/happybtn"
+            android:layout_width="150dp"
+            android:background="@drawable/happy"
+            android:layout_height="90dp"
+            android:textSize="25dp"
+            android:fontFamily="serif"
+            android:layout_alignParentLeft="true"
+            android:text="HAPPY" />
+
+        <Button
+            android:id="@+id/mindbgbtn"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:textColor="#fff"
+            android:background="@drawable/mingbg"
+            android:textSize="25dp"
+            android:fontFamily="serif"
+            android:layout_alignParentRight="true"
+            android:text="MIND BOGGLING" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp">
+
+        <Button
+            android:id="@+id/breakupbtn"
+            android:layout_width="150dp"
+            android:textSize="25dp"
+            android:fontFamily="serif"
+            android:layout_height="90dp"
+            android:background="@drawable/breakup"
+            android:layout_alignParentLeft="true"
+            android:text="BREAK UP" />
+
+        <Button
+            android:id="@+id/focusbtn"
+            android:layout_width="150dp"
+            android:background="@drawable/focus"
+            android:layout_height="90dp"
+            android:layout_alignParentRight="true"
+            android:textSize="25dp"
+            android:fontFamily="serif"
+            android:text="FOCUS" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp">
+
+        <Button
+            android:id="@+id/anxiousbtn"
+            android:layout_width="150dp"
+            android:background="@drawable/anxious"
+            android:textSize="25dp"
+            android:fontFamily="serif"
+            android:layout_alignParentLeft="true"
+            android:layout_height="90dp"
+            android:text="ANXIOUS" />
+
+        <Button
+            android:id="@+id/scary"
+            android:layout_width="150dp"
+            android:background="@drawable/scary"
+            android:layout_height="90dp"
+            android:textSize="25dp"
+            android:fontFamily="serif"
+            android:textColor="#fff"
+            android:layout_alignParentRight="true"
+            android:text="Scary" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp">
+
+        <Button
+            android:id="@+id/relaxbtn"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:textSize="25dp"
+            android:fontFamily="serif"
+            android:text="RELAX"
+            android:background="@drawable/relax"
+            android:layout_alignParentRight="true"/>
+
+        <Button
+            android:id="@+id/boredbtn"
+            android:textColor="#fff"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:textSize="25dp"
+            android:fontFamily="serif"
+            android:layout_alignParentLeft="true"
+            android:text="BORED"
+            android:background="@drawable/bored"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="550dp">
+
+        <Button
+            android:id="@+id/selflovebtn"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:textSize="25dp"
+            android:fontFamily="serif"
+            android:text="SELF LOVE"
+            android:background="@drawable/selflove"/>
+
+        <Button
+            android:id="@+id/motivationbtn"
+            android:layout_width="150dp"
+            android:textSize="23dp"
+            android:fontFamily="serif"
+            android:layout_height="90dp"
+            android:layout_alignParentRight="true"
+            android:text="MOTIVATION"
+            android:textColor="#fff"
+            android:background="@drawable/motivation"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
