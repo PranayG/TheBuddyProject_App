@@ -13,22 +13,5 @@ The Phase 1.0 of the app is complete where we designed the layout of the applica
 
 The User Interface
 
-I. Splash Screen  
+![TBP app](https://user-images.githubusercontent.com/9202531/120101546-915c6880-c157-11eb-9b2a-7c12177d72a7.gif)
 
-![Spash Screen](https://user-images.githubusercontent.com/9202531/119235425-85631c00-bb43-11eb-9fa1-d3ef08fb8fd2.jpg)
-
- II. Main Page
-
-![Main Page](https://user-images.githubusercontent.com/9202531/119235528-01f5fa80-bb44-11eb-8606-032feda1b674.jpg)
-
-III. Global Library
-
-![Globa lLibrary](https://user-images.githubusercontent.com/9202531/119235669-b8f27600-bb44-11eb-9e81-27681d8a4ecd.jpg)
-
-IV. Entertainment
-
-![Enterainment](https://user-images.githubusercontent.com/9202531/119235698-e50df700-bb44-11eb-9c62-d1d9a5aa6bf8.jpg)
-
-V. Bud Community
-
-![Bud community](https://user-images.githubusercontent.com/9202531/119235713-f0612280-bb44-11eb-9586-1b0d8fa04d30.jpg)
